@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 
 const IndexPage = () => {
   return (
@@ -13,7 +14,7 @@ const IndexPage = () => {
         </span>
       </h1>
       <p>
-        Hi there, my name is Janusz... And here is <a href="/about">about</a>
+        Hi there, my name is Janusz... And here is <Link to="/about">about</Link>
       </p>
     </main>
   );
