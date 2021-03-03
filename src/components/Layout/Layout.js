@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import { title, navBar } from './layout.module.css';
+import { main, title, navBar } from './layout.module.css';
 
 const Layout = ({ pageTitle, children }) => (
-  <main>
+  <main className={main}>
     <nav className={navBar}>
       <ul>
         <li>
