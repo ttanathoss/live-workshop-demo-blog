@@ -12,7 +12,9 @@ const IndexPage = () => {
           🎉🎉🎉
         </span>
       </h1>
-      <p>Hi there, my name is Janusz...</p>
+      <p>
+        Hi there, my name is Janusz... And here is <a href="/about">about</a>
+      </p>
     </main>
   );
 };
