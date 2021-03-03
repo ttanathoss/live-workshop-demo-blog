@@ -1,23 +1,13 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import Layout from '../components/Layout/Layout';
 
-const IndexPage = () => {
-  return (
-    <main>
-      <title>Home Page</title>
-      <h1>
-        Congratulations
-        <br />
-        <span>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p>
-        Hi there, my name is Janusz... And here is <Link to="/about">about</Link>
-      </p>
-    </main>
-  );
-};
+const IndexPage = () => (
+  <Layout pageTitle="Home Page">
+    <p>
+      Hi there, my name is Janusz... And here is <Link to="/about">about</Link>
+    </p>
+  </Layout>
+);
 
 export default IndexPage;
